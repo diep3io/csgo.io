@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<SCRIPT>
+function passWord() {
+var testV = 1;
+var pass1 = prompt('Please Enter Your Password',' ');
+while (testV < 3) {
+if (!pass1) 
+history.go(-1);
+if (pass1.toLowerCase() == "k") {
+alert('correctomecto');
+window.open('');
+break;
+} 
+testV+=1;
+var pass1 = 
+prompt('oof wrong.','Password');
+}
+if (pass1.toLowerCase()!="password" & testV ==3) 
+alert('lol u a idiot');
+window.open('https://cdn.glitch.com/27eef775-aa6e-443d-af91-b733728f54fd%2FScreen%20Shot%202018-12-31%20at%204.09.29%20PM.png?1546290589134');
+  
+} 
+</SCRIPT>
+<CENTER>
+<FORM>
+<input type="button" value="dev login" onClick="passWord()">
+</FORM>
+</CENTER>
+</html>

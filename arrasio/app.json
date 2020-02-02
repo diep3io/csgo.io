@@ -1,0 +1,10 @@
+{
+  "name": "csgo.useast",
+  "description": "CSGO io game",
+  "scripts": {
+    "build": "gulp build",
+    "start": "gulp run",
+    "watch": "gulp watch",
+    "test": "gulp test"
+  }
+}
